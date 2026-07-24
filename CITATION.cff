@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived release or manuscript."
+title: "Embodied Null Probes: Embodied Negative Controls for Low-Disturbance Robot Self-Diagnosis"
+type: software
+authors:
+  - name: "Embodied Null Probes contributors"
+abstract: "A reproducible simulation study of paired, nominally cancelling robot actions as embodied negative controls for diagnosing hidden actuator and contact changes under task-disturbance constraints."
+keywords:
+  - robotics
+  - robot-learning
+  - system-identification
+  - embodied-ai
+  - negative-controls
+  - safe-exploration
+license: MIT
+version: "0.1.0"
+date-released: "2026-07-24"

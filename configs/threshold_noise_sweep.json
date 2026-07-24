@@ -1,0 +1,25 @@
+{
+  "seed": 19001,
+  "trials": 40,
+  "diagnostic_steps": 24,
+  "task_steps": 120,
+  "recovery_task": "straight_goal",
+  "dt": 0.1,
+  "wheel_base": 0.42,
+  "process_noise": 0.003,
+  "observation_noise": 0.01,
+  "max_predicted_diagnostic_disturbance": 0.12,
+  "damage_cases": [
+    {"name": "left_gain_loss", "left_gain": 0.62, "right_gain": 1.0, "slip": 0.02},
+    {"name": "right_gain_loss", "left_gain": 1.0, "right_gain": 0.62, "slip": 0.02},
+    {"name": "symmetric_low_power", "left_gain": 0.72, "right_gain": 0.72, "slip": 0.02},
+    {"name": "high_slip", "left_gain": 1.0, "right_gain": 1.0, "slip": 0.20}
+  ],
+  "policies": ["null_probe", "unpaired_null", "fisher_grid", "constrained_fisher"],
+  "sweep": {
+    "diagnostic_steps": [8, 24, 40],
+    "observation_noise": [0.005, 0.01, 0.03],
+    "max_predicted_diagnostic_disturbance": [0.08, 0.12, 0.18]
+  },
+  "output": "runs/threshold_noise_sweep_results.csv"
+}

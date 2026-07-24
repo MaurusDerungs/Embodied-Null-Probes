@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="540" viewBox="0 0 1050 540">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202020}
+.title{font-size:18px;font-weight:700}
+.subtitle{font-size:13px;fill:#444}
+.label{font-size:13px}
+.tick{font-size:11px;fill:#444}
+.caption{font-size:12px;fill:#333}
+.axis{stroke:#202020;stroke-width:1.2}
+.grid{stroke:#dddddd;stroke-width:1}
+.ci{stroke-width:1.5;stroke-linecap:round}
+</style>
+<rect x="0" y="0" width="1050" height="540" fill="#ffffff"/>
+<text class="title" x="80" y="57">A. Local cancellation ablation</text>
+<rect x="80" y="85" width="405" height="285" fill="#fff" stroke="#cfcfcf"/>
+<line class="grid" x1="147.5" y1="85" x2="147.5" y2="370"/>
+<line class="axis" x1="147.5" y1="370" x2="147.5" y2="375"/>
+<text class="tick" x="147.5" y="389" text-anchor="middle">10</text>
+<line class="grid" x1="260.0" y1="85" x2="260.0" y2="370"/>
+<line class="axis" x1="260.0" y1="370" x2="260.0" y2="375"/>
+<text class="tick" x="260.0" y="389" text-anchor="middle">20</text>
+<line class="grid" x1="372.5" y1="85" x2="372.5" y2="370"/>
+<line class="axis" x1="372.5" y1="370" x2="372.5" y2="375"/>
+<text class="tick" x="372.5" y="389" text-anchor="middle">30</text>
+<line class="grid" x1="485.0" y1="85" x2="485.0" y2="370"/>
+<line class="axis" x1="485.0" y1="370" x2="485.0" y2="375"/>
+<text class="tick" x="485.0" y="389" text-anchor="middle">40</text>
+<line class="grid" x1="80" y1="351.3" x2="485" y2="351.3"/>
+<line class="axis" x1="75" y1="351.3" x2="80" y2="351.3"/>
+<text class="tick" x="71" y="355.3" text-anchor="end">0.00</text>
+<line class="grid" x1="80" y1="248.1" x2="485" y2="248.1"/>
+<line class="axis" x1="75" y1="248.1" x2="80" y2="248.1"/>
+<text class="tick" x="71" y="252.1" text-anchor="end">20</text>
+<line class="grid" x1="80" y1="145.0" x2="485" y2="145.0"/>
+<line class="axis" x1="75" y1="145.0" x2="80" y2="145.0"/>
+<text class="tick" x="71" y="149.0" text-anchor="end">40</text>
+<line class="axis" x1="80" y1="370" x2="485" y2="370"/>
+<line class="axis" x1="80" y1="85" x2="80" y2="370"/>
+<text class="label" x="282.5" y="415" text-anchor="middle">diagnostic horizon (steps)</text>
+<text class="label" x="28" y="227.5" transform="rotate(-90 28 227.5)" text-anchor="middle">cumulative disturbance</text>
+<line class="ci" x1="80.0" y1="350.4" x2="80.0" y2="350.3" stroke="#0072b2"/>
+<line class="ci" x1="76.0" y1="350.4" x2="84.0" y2="350.4" stroke="#0072b2"/>
+<line class="ci" x1="76.0" y1="350.3" x2="84.0" y2="350.3" stroke="#0072b2"/>
+<circle cx="80.0" cy="350.4" r="4.5" fill="#0072b2"/>
+<line class="ci" x1="125.0" y1="349.4" x2="125.0" y2="349.2" stroke="#0072b2"/>
+<line class="ci" x1="121.0" y1="349.4" x2="129.0" y2="349.4" stroke="#0072b2"/>
+<line class="ci" x1="121.0" y1="349.2" x2="129.0" y2="349.2" stroke="#0072b2"/>
+<circle cx="125.0" cy="349.3" r="4.5" fill="#0072b2"/>
+<line class="ci" x1="215.0" y1="347.0" x2="215.0" y2="346.6" stroke="#0072b2"/>
+<line class="ci" x1="211.0" y1="347.0" x2="219.0" y2="347.0" stroke="#0072b2"/>
+<line class="ci" x1="211.0" y1="346.6" x2="219.0" y2="346.6" stroke="#0072b2"/>
+<circle cx="215.0" cy="346.8" r="4.5" fill="#0072b2"/>
+<line class="ci" x1="305.0" y1="344.2" x2="305.0" y2="343.4" stroke="#0072b2"/>
+<line class="ci" x1="301.0" y1="344.2" x2="309.0" y2="344.2" stroke="#0072b2"/>
+<line class="ci" x1="301.0" y1="343.4" x2="309.0" y2="343.4" stroke="#0072b2"/>
+<circle cx="305.0" cy="343.8" r="4.5" fill="#0072b2"/>
+<line class="ci" x1="485.0" y1="337.4" x2="485.0" y2="335.9" stroke="#0072b2"/>
+<line class="ci" x1="481.0" y1="337.4" x2="489.0" y2="337.4" stroke="#0072b2"/>
+<line class="ci" x1="481.0" y1="335.9" x2="489.0" y2="335.9" stroke="#0072b2"/>
+<circle cx="485.0" cy="336.7" r="4.5" fill="#0072b2"/>
+<polyline fill="none" stroke="#0072b2" stroke-width="2.5" points="80.0,350.4 125.0,349.3 215.0,346.8 305.0,343.8 485.0,336.7"/>
+<line class="ci" x1="80.0" y1="348.3" x2="80.0" y2="348.1" stroke="#d55e00"/>
+<line class="ci" x1="76.0" y1="348.3" x2="84.0" y2="348.3" stroke="#d55e00"/>
+<line class="ci" x1="76.0" y1="348.1" x2="84.0" y2="348.1" stroke="#d55e00"/>
+<circle cx="80.0" cy="348.2" r="4.5" fill="#d55e00"/>
+<line class="ci" x1="125.0" y1="346.2" x2="125.0" y2="346.0" stroke="#d55e00"/>
+<line class="ci" x1="121.0" y1="346.2" x2="129.0" y2="346.2" stroke="#d55e00"/>
+<line class="ci" x1="121.0" y1="346.0" x2="129.0" y2="346.0" stroke="#d55e00"/>
+<circle cx="125.0" cy="346.1" r="4.5" fill="#d55e00"/>
+<line class="ci" x1="215.0" y1="341.0" x2="215.0" y2="340.4" stroke="#d55e00"/>
+<line class="ci" x1="211.0" y1="341.0" x2="219.0" y2="341.0" stroke="#d55e00"/>
+<line class="ci" x1="211.0" y1="340.4" x2="219.0" y2="340.4" stroke="#d55e00"/>
+<circle cx="215.0" cy="340.7" r="4.5" fill="#d55e00"/>
+<line class="ci" x1="305.0" y1="335.5" x2="305.0" y2="334.6" stroke="#d55e00"/>
+<line class="ci" x1="301.0" y1="335.5" x2="309.0" y2="335.5" stroke="#d55e00"/>
+<line class="ci" x1="301.0" y1="334.6" x2="309.0" y2="334.6" stroke="#d55e00"/>
+<circle cx="305.0" cy="335.1" r="4.5" fill="#d55e00"/>
+<line class="ci" x1="485.0" y1="323.7" x2="485.0" y2="322.1" stroke="#d55e00"/>
+<line class="ci" x1="481.0" y1="323.7" x2="489.0" y2="323.7" stroke="#d55e00"/>
+<line class="ci" x1="481.0" y1="322.1" x2="489.0" y2="322.1" stroke="#d55e00"/>
+<circle cx="485.0" cy="322.9" r="4.5" fill="#d55e00"/>
+<polyline fill="none" stroke="#d55e00" stroke-width="2.5" points="80.0,348.2 125.0,346.1 215.0,340.7 305.0,335.1 485.0,322.9"/>
+<text class="title" x="600" y="57">B. Disturbance ratio</text>
+<rect x="600" y="85" width="330" height="285" fill="#fff" stroke="#cfcfcf"/>
+<line class="grid" x1="655.0" y1="85" x2="655.0" y2="370"/>
+<line class="axis" x1="655.0" y1="370" x2="655.0" y2="375"/>
+<text class="tick" x="655.0" y="389" text-anchor="middle">10</text>
+<line class="grid" x1="746.7" y1="85" x2="746.7" y2="370"/>
+<line class="axis" x1="746.7" y1="370" x2="746.7" y2="375"/>
+<text class="tick" x="746.7" y="389" text-anchor="middle">20</text>
+<line class="grid" x1="838.3" y1="85" x2="838.3" y2="370"/>
+<line class="axis" x1="838.3" y1="370" x2="838.3" y2="375"/>
+<text class="tick" x="838.3" y="389" text-anchor="middle">30</text>
+<line class="grid" x1="930.0" y1="85" x2="930.0" y2="370"/>
+<line class="axis" x1="930.0" y1="370" x2="930.0" y2="375"/>
+<text class="tick" x="930.0" y="389" text-anchor="middle">40</text>
+<line class="grid" x1="600" y1="340.3" x2="930" y2="340.3"/>
+<line class="axis" x1="595" y1="340.3" x2="600" y2="340.3"/>
+<text class="tick" x="591" y="344.3" text-anchor="end">2.0</text>
+<line class="grid" x1="600" y1="257.9" x2="930" y2="257.9"/>
+<line class="axis" x1="595" y1="257.9" x2="600" y2="257.9"/>
+<text class="tick" x="591" y="261.9" text-anchor="end">2.5</text>
+<line class="grid" x1="600" y1="175.5" x2="930" y2="175.5"/>
+<line class="axis" x1="595" y1="175.5" x2="600" y2="175.5"/>
+<text class="tick" x="591" y="179.5" text-anchor="end">3.0</text>
+<line class="grid" x1="600" y1="93.1" x2="930" y2="93.1"/>
+<line class="axis" x1="595" y1="93.1" x2="600" y2="93.1"/>
+<text class="tick" x="591" y="97.1" text-anchor="end">3.5</text>
+<line class="axis" x1="600" y1="370" x2="930" y2="370"/>
+<line class="axis" x1="600" y1="85" x2="600" y2="370"/>
+<text class="label" x="765.0" y="415" text-anchor="middle">diagnostic horizon (steps)</text>
+<text class="label" x="548" y="227.5" transform="rotate(-90 548 227.5)" text-anchor="middle">unpaired / paired ratio</text>
+<circle cx="600.0" cy="104.7" r="5" fill="#202020"/>
+<text class="tick" x="607.0" y="97.7">3.43x</text>
+<circle cx="636.7" cy="238.7" r="5" fill="#202020"/>
+<text class="tick" x="643.7" y="231.7">2.62x</text>
+<circle cx="710.0" cy="282.6" r="5" fill="#202020"/>
+<text class="tick" x="717.0" y="275.6">2.35x</text>
+<circle cx="783.3" cy="312.2" r="5" fill="#202020"/>
+<text class="tick" x="790.3" y="305.2">2.17x</text>
+<circle cx="930.0" cy="350.3" r="5" fill="#202020"/>
+<text class="tick" x="937.0" y="343.3">1.94x</text>
+<polyline fill="none" stroke="#202020" stroke-width="2.5" points="600.0,104.7 636.7,238.7 710.0,282.6 783.3,312.2 930.0,350.3"/>
+<circle cx="80" cy="435" r="5" fill="#0072b2"/>
+<text class="tick" x="92" y="439">paired null</text>
+<circle cx="80" cy="455" r="5" fill="#d55e00"/>
+<text class="tick" x="92" y="459">unpaired null</text>
+<text class="caption" x="315" y="430">Same action multiset, different ordering. Error bars are 95% CIs.</text>
+<text class="caption" x="315" y="447">The unpaired sequence accumulates about 1.9x-3.4x more disturbance across tested horizons.</text>
+<text class="caption" x="315" y="464">Source: runs/budget_sweep_results.csv.</text>
+</svg>

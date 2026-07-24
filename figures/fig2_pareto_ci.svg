@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="660" viewBox="0 0 980 660">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202020}
+.title{font-size:18px;font-weight:700}
+.subtitle{font-size:13px;fill:#444}
+.label{font-size:13px}
+.tick{font-size:11px;fill:#444}
+.caption{font-size:12px;fill:#333}
+.axis{stroke:#202020;stroke-width:1.2}
+.grid{stroke:#dddddd;stroke-width:1}
+.ci{stroke-width:1.5;stroke-linecap:round}
+</style>
+<rect x="0" y="0" width="980" height="660" fill="#ffffff"/>
+<text class="title" x="95" y="57">Pareto comparison with 95% CI bars</text>
+<rect x="95" y="85" width="650" height="420" fill="#fff" stroke="#cfcfcf"/>
+<line class="grid" x1="112.9" y1="85" x2="112.9" y2="505"/>
+<line class="axis" x1="112.9" y1="505" x2="112.9" y2="510"/>
+<text class="tick" x="112.9" y="524" text-anchor="middle">0.02</text>
+<line class="grid" x1="247.7" y1="85" x2="247.7" y2="505"/>
+<line class="axis" x1="247.7" y1="505" x2="247.7" y2="510"/>
+<text class="tick" x="247.7" y="524" text-anchor="middle">0.04</text>
+<line class="grid" x1="382.5" y1="85" x2="382.5" y2="505"/>
+<line class="axis" x1="382.5" y1="505" x2="382.5" y2="510"/>
+<text class="tick" x="382.5" y="524" text-anchor="middle">0.06</text>
+<line class="grid" x1="517.2" y1="85" x2="517.2" y2="505"/>
+<line class="axis" x1="517.2" y1="505" x2="517.2" y2="510"/>
+<text class="tick" x="517.2" y="524" text-anchor="middle">0.08</text>
+<line class="grid" x1="652.0" y1="85" x2="652.0" y2="505"/>
+<line class="axis" x1="652.0" y1="505" x2="652.0" y2="510"/>
+<text class="tick" x="652.0" y="524" text-anchor="middle">0.10</text>
+<line class="grid" x1="95" y1="376.8" x2="745" y2="376.8"/>
+<line class="axis" x1="90" y1="376.8" x2="95" y2="376.8"/>
+<text class="tick" x="86" y="380.8" text-anchor="end">0.20</text>
+<line class="grid" x1="95" y1="221.0" x2="745" y2="221.0"/>
+<line class="axis" x1="90" y1="221.0" x2="95" y2="221.0"/>
+<text class="tick" x="86" y="225.0" text-anchor="end">0.40</text>
+<line class="axis" x1="95" y1="505" x2="745" y2="505"/>
+<line class="axis" x1="95" y1="85" x2="95" y2="505"/>
+<text class="label" x="420.0" y="550" text-anchor="middle">parameter error (L1)</text>
+<text class="label" x="43" y="295.0" transform="rotate(-90 43 295.0)" text-anchor="middle">maximum diagnostic disturbance</text>
+<line class="ci" x1="539.4" y1="462.3" x2="682.1" y2="462.3" stroke="#0072b2"/>
+<line class="ci" x1="610.7" y1="464.4" x2="610.7" y2="460.2" stroke="#0072b2"/>
+<circle cx="610.7" cy="462.3" r="5" fill="#0072b2" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="585.7" y="453.3">paired null, 8</text>
+<line class="ci" x1="385.8" y1="451.9" x2="527.4" y2="451.9" stroke="#009e73"/>
+<line class="ci" x1="456.6" y1="454.5" x2="456.6" y2="449.2" stroke="#009e73"/>
+<circle cx="456.6" cy="451.9" r="5" fill="#009e73" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="463.6" y="443.9">constrained Fisher, 8</text>
+<line class="ci" x1="378.2" y1="414.0" x2="480.0" y2="414.0" stroke="#cc79a7"/>
+<line class="ci" x1="429.1" y1="417.7" x2="429.1" y2="410.3" stroke="#cc79a7"/>
+<circle cx="429.1" cy="414.0" r="5" fill="#cc79a7" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="436.1" y="427.0">Fisher grid, 8</text>
+<line class="ci" x1="488.3" y1="349.8" x2="618.6" y2="349.8" stroke="#d55e00"/>
+<line class="ci" x1="553.5" y1="354.5" x2="553.5" y2="345.1" stroke="#d55e00"/>
+<circle cx="553.5" cy="349.8" r="5" fill="#d55e00" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="560.5" y="341.8">unpaired null, 8</text>
+<line class="ci" x1="274.8" y1="444.4" x2="357.6" y2="444.4" stroke="#0072b2"/>
+<line class="ci" x1="316.2" y1="448.3" x2="316.2" y2="440.6" stroke="#0072b2"/>
+<circle cx="316.2" cy="444.4" r="5" fill="#0072b2" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="291.2" y="435.4">paired null, 24</text>
+<line class="ci" x1="235.6" y1="443.7" x2="333.9" y2="443.7" stroke="#009e73"/>
+<line class="ci" x1="284.8" y1="446.2" x2="284.8" y2="441.3" stroke="#009e73"/>
+<circle cx="284.8" cy="443.7" r="5" fill="#009e73" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="291.8" y="435.7">constrained Fisher, 24</text>
+<line class="ci" x1="195.7" y1="267.6" x2="270.5" y2="267.6" stroke="#cc79a7"/>
+<line class="ci" x1="233.1" y1="273.3" x2="233.1" y2="261.9" stroke="#cc79a7"/>
+<circle cx="233.1" cy="267.6" r="5" fill="#cc79a7" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="240.1" y="280.6">Fisher grid, 24</text>
+<line class="ci" x1="264.6" y1="341.3" x2="344.8" y2="341.3" stroke="#d55e00"/>
+<line class="ci" x1="304.7" y1="346.4" x2="304.7" y2="336.3" stroke="#d55e00"/>
+<circle cx="304.7" cy="341.3" r="5" fill="#d55e00" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="311.7" y="333.3">unpaired null, 24</text>
+<line class="ci" x1="198.5" y1="427.4" x2="266.5" y2="427.4" stroke="#0072b2"/>
+<line class="ci" x1="232.5" y1="432.3" x2="232.5" y2="422.4" stroke="#0072b2"/>
+<circle cx="232.5" cy="427.4" r="5" fill="#0072b2" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="207.5" y="418.4">paired null, 40</text>
+<line class="ci" x1="175.8" y1="438.8" x2="249.4" y2="438.8" stroke="#009e73"/>
+<line class="ci" x1="212.6" y1="441.2" x2="212.6" y2="436.5" stroke="#009e73"/>
+<circle cx="212.6" cy="438.8" r="5" fill="#009e73" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="219.6" y="430.8">constrained Fisher, 40</text>
+<line class="ci" x1="157.9" y1="133.6" x2="213.9" y2="133.6" stroke="#cc79a7"/>
+<line class="ci" x1="185.9" y1="141.6" x2="185.9" y2="125.6" stroke="#cc79a7"/>
+<circle cx="185.9" cy="133.6" r="5" fill="#cc79a7" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="192.9" y="146.6">Fisher grid, 40</text>
+<line class="ci" x1="207.4" y1="333.2" x2="276.7" y2="333.2" stroke="#d55e00"/>
+<line class="ci" x1="242.1" y1="338.7" x2="242.1" y2="327.7" stroke="#d55e00"/>
+<circle cx="242.1" cy="333.2" r="5" fill="#d55e00" stroke="#fff" stroke-width="1"/>
+<text class="tick" x="249.1" y="325.2">unpaired null, 40</text>
+<circle cx="785" cy="100" r="5" fill="#0072b2"/>
+<text class="tick" x="797" y="104">paired null</text>
+<circle cx="785" cy="120" r="5" fill="#009e73"/>
+<text class="tick" x="797" y="124">constrained Fisher</text>
+<circle cx="785" cy="140" r="5" fill="#cc79a7"/>
+<text class="tick" x="797" y="144">Fisher grid</text>
+<circle cx="785" cy="160" r="5" fill="#d55e00"/>
+<text class="tick" x="797" y="164">unpaired null</text>
+<text class="caption" x="95" y="560">Each point is a policy-horizon mean; horizontal and vertical bars show 95% CIs.</text>
+<text class="caption" x="95" y="577">Two-metric dominance uses x and y only. The paper also reports cumulative disturbance as a third safety metric.</text>
+<text class="caption" x="95" y="594">Source: runs/budget_sweep_results.csv.</text>
+</svg>

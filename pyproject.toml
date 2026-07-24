@@ -1,0 +1,16 @@
+[project]
+name = "embodied-null-probes"
+version = "0.1.0"
+description = "Reproducible simulation study of embodied negative-control probes for low-disturbance robot self-diagnosis."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+enp-run = "diagnostic_null_actions.run_experiment:main"
+enp-sweep = "diagnostic_null_actions.run_sweep:main"
+enp-analyze = "diagnostic_null_actions.analyze_results:main"
+enp-figures = "diagnostic_null_actions.make_figures:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
