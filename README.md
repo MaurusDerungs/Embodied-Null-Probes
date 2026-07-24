@@ -6,26 +6,7 @@ This repository contains a reproducible simulation study asking whether a robot 
 
 The project is intentionally not optimized for benchmark-winning performance. The central contribution is a falsifiable evaluation protocol: compare diagnostic information against final, maximum, and cumulative task-state disturbance.
 
-## Recommended GitHub Name
 
-Use:
-
-```text
-embodied-null-probes
-```
-
-Why this name:
-
-- It is short and readable.
-- It describes the scientific mechanism, not an implementation detail.
-- It avoids overclaiming that the method is always better.
-- It can cover future robots beyond the current differential-drive simulator.
-
-Good alternatives:
-
-- `robot-null-probes`
-- `embodied-negative-controls`
-- `low-disturbance-diagnostics`
 
 ## Main Finding
 
